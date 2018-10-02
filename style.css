@@ -94,6 +94,7 @@ header >div {
 h1 span{
     font-family: 'Monoton', cursive;
     font-size: 130px;
+    font-weight: 400;
 }
 
 h4{
@@ -222,4 +223,19 @@ footer{
 
 footer li{
     margin-left: 15px;
+    font-size: 20px;
+}
+
+.more{
+    margin: auto;
+}
+
+footer h3 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .section-2{
+
+    }
 }
