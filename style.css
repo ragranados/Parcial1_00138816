@@ -149,13 +149,13 @@ h4{
     border: #ffffff;
 }
 
-.section-3{
+.section-2{
     background-image: url(/home/estudiante/Descargas/contacus.jpg);
     background-position: center;
     background-size: cover;
     height: 900px;
 }
 
-.section-3 form{
+.section-2 form{
     border-radius: 10px;
 }
