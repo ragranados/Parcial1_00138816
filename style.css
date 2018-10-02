@@ -235,7 +235,34 @@ footer h3 {
 }
 
 @media screen and (max-width: 1000px) {
-    .section-2{
+    .section-1 .grid{
+        grid-template-columns: 1fr 1fr;
+    }
 
+    h1 span{
+        font-size: 90px;
+    }
+    
+    h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .section-2 .row * {
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .section-1 .grid{
+        grid-template-columns: 1fr;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
     }
 }
