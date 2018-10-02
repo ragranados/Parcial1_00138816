@@ -17,6 +17,10 @@
     flex-direction: column;
 }
 
+flex50{
+    flex: 1 1 50%;
+}
+
 .white{
     color: white;
 }
@@ -37,8 +41,8 @@
     display: grid;
 }
 
-.gap30{
-
+.heigth100{
+    height: 100%;
 }
 
 .columns-3{
@@ -143,4 +147,15 @@ h4{
     background-color: #ffffff;
     color: orange;
     border: #ffffff;
+}
+
+.section-3{
+    background-image: url(/home/estudiante/Descargas/contacus.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.section-3 form{
+    border-radius: 10px;
 }
