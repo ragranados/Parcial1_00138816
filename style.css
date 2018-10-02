@@ -12,21 +12,37 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.width50{
+    width: 50%;
+}
+
 .column{
     display: flex;
     flex-direction: column;
 }
 
 flex50{
-    flex: 1 1 50%;
+    flex-basis:50%;
 }
 
 .white{
     color: white;
 }
 
+.back{
+    color: #000000;
+}
+
 .justify-center{
     justify-content: center;
+}
+
+.justify-space-bw{
+    justify-content: space-between;
 }
 
 .justify-space-a{
@@ -141,6 +157,7 @@ h4{
     border: 1px solid orange;
     border-radius: 5px;
     font-weight: 400;
+    margin: 0 5%;
 }
 
 .button:hover{
@@ -158,4 +175,51 @@ h4{
 
 .section-2 form{
     border-radius: 10px;
+    padding: 5%;
+}
+
+.section-2 .row > div{
+    padding: 30px 50px;
+}
+
+.section-2 .row > div > div{
+    padding: 30px 50px;
+}
+
+.bg-w-opacity{
+    background-color: #00000057;
+    border-radius: 20px;
+}
+
+.row form input{
+    height: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+form button{
+    margin: 3% 5%;
+}
+
+.section-2 p{
+    font-size: 25px;
+}
+
+.section-2 label{
+    font-size: 40px;
+}
+
+#comentarios {
+    height: 250px
+}
+
+footer{
+    color: white;
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+footer li{
+    margin-left: 15px;
 }
